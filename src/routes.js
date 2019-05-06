@@ -6,9 +6,23 @@ const authMiddleware = require('./app/middlewares/auth');
 
 const controllers = require('./app/controller');
 
-routes.get('/teste', authMiddleware, (req, res) => res.json({ ok: true }));
-
 routes.post('/users', controllers.UserController.store);
 routes.post('/session', controllers.SessionController.store);
+
+routes.use(authMiddleware);
+
+/**
+ * Ads
+ */
+routes.get('/ads', controllers.AdController.index);
+routes.get('/ads/:id', controllers.AdController.show);
+routes.post('/ads', controllers.AdController.store);
+routes.put('/ads/:id', controllers.AdController.update);
+routes.delete('/ads/:id', controllers.AdController.destroy);
+
+/**
+ * Purchases
+ */
+routes.post('/purchases', controllers.PurchaseController.store);
 
 module.exports = routes;
