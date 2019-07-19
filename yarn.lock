@@ -865,10 +865,10 @@ express@^4.12.2, express@^4.16.4:
     utils-merge "1.0.1"
     vary "~1.1.2"
 
-extend@^2.0.2:
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/extend/-/extend-2.0.2.tgz#1b74985400171b85554894459c978de6ef453ab7"
-  integrity sha512-AgFD4VU+lVLP6vjnlNfF7OeInLTyeyckCNPEsuxz1vi786UuK/nk6ynPuhn/h+Ju9++TQyr5EpLRI14fc1QtTQ==
+extend@3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/extend/-/extend-3.0.0.tgz#5a474353b9f3353ddd8176dfd37b91c83a46f1d4"
+  integrity sha1-WkdDU7nzNT3dgXbf03uRyDpG8dQ=
 
 extend@^1.2.1:
   version "1.3.0"
@@ -1671,9 +1671,9 @@ node-redis-warlock@~0.2.0:
     uuid "^2.0.1"
 
 nodemailer-express-handlebars@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/nodemailer-express-handlebars/-/nodemailer-express-handlebars-3.0.0.tgz#6ad913bba74e186d29831ce9bee30fd34b8f98be"
-  integrity sha1-atkTu6dOGG0pgxzpvuMP00uPmL4=
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/nodemailer-express-handlebars/-/nodemailer-express-handlebars-3.1.0.tgz#e80da7528cfd30a8dd49c002642854edcab72c68"
+  integrity sha512-JLt+lAlo/D3TfpVnDY+imLHAAonX5L9FEHaczyiPxWCH259bsfxEjPSWl/rWgnvcoFT8uC/hwHi/I0ScFmHlIQ==
   dependencies:
     express-handlebars "^3.0.0"
 
